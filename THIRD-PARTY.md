@@ -1,32 +1,9 @@
-# Сторонние компоненты поставки
+# Third-party components
 
-Комплект этапа 2 содержит пять готовых образов. Их точные ID и конфигурационные
-SHA-256 находятся в `BUNDLE-MANIFEST.json`; изменяющиеся теги `latest` не используются.
+The installer contains five pinned Linux/amd64 images: application, public edge, PostgreSQL, Garage and LiveKit. Exact image identities appear in its BUNDLE-MANIFEST.json and in [SOURCES.json](https://github.com/alexvectorgsai/tabula-one-server/releases/download/untagged-f7804f637b12bc7bf346/SOURCES.json).
 
-`notices/app.json` содержит фактические тексты LICENSE/NOTICE/COPYRIGHT,
-метаданные runtime-зависимостей и версии Debian-пакетов собранного образа.
-`notices/build-dependencies.json` содержит уведомления JS/frontend и Go-зависимостей
-Caddy/caddy-l4 из среды сборки. Это более широкий набор, чем runtime, с исходными
-путями происхождения. Дополнительные тексты и ссылки перечислены в `notices/upstream.json`.
+License texts and corresponding source/build materials are available in the [source-only release](https://github.com/alexvectorgsai/tabula-one-server/releases/tag/component-sources-2026.10.24.3); see [SOURCES.md](SOURCES.md) for verification and component details. Original copyright and license texts remain authoritative. Application beta expiry does not terminate the upstream rights to third-party components.
 
-| Компонент                              | Зафиксированная версия                     | Источник                                                                          |
-| -------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------- |
-| Node.js                                | 24.16.0, Debian bookworm-slim              | <https://github.com/nodejs/node/tree/v24.16.0>                                    |
-| PostgreSQL                             | 18.6                                       | <https://github.com/postgres/postgres/tree/REL_18_6>                              |
-| Garage                                 | 2.3.0, исходный образ по digest            | <https://garagehq.deuxfleurs.fr/download/>                                        |
-| LiveKit server                         | 1.13.6                                     | <https://github.com/livekit/livekit/tree/v1.13.6>                                 |
-| Caddy                                  | 2.10.2                                     | <https://github.com/caddyserver/caddy/tree/v2.10.2>                               |
-| caddy-l4                               | `206d6b05731550ca7ccd8eb8579a7d3920849f6e` | <https://github.com/mholt/caddy-l4/tree/206d6b05731550ca7ccd8eb8579a7d3920849f6e> |
-| FFmpeg, Poppler и системные библиотеки | Реальные версии в `app.json`               | <https://sources.debian.org/>                                                     |
-| JS-зависимости                         | Lockfile базы `52c3540`                    | Метаданные и тексты в JSON-уведомлениях                                           |
+Garage source and Cargo/Nix build inputs, native sharp/libvips build scripts and dependencies, Debian/Alpine packages, Go modules/toolchains and the original build recipe are supplied. The installer keeps its included notices and SHA-256 manifest; separate source archives are optional at runtime.
 
-Условия беты приложения не заменяют лицензии сторонних компонентов. Garage
-распространяется по AGPL; FFmpeg/Poppler и часть системных библиотек также имеют
-условия передачи соответствующих исходников. Указание репозитория само по себе
-не подтверждает выполнение всех требований бинарной поставки.
-
-Текущий архив предназначен для внутренней локальной проверки. Перед внешней
-передачей нужно завершить сверку уведомлений всех пяти образов и обеспечить
-соответствующие исходники и условия их получения для фактически передаваемых
-бинарников. Это отдельный обязательный пункт выпуска, а не выполненная юридическая
-проверка. До его закрытия архив не публикуется как готовая внешняя поставка.
+The installer is currently a draft pending the first real-server acceptance. Source-only releases and GitHub's automatic Source code archives are not installable packages.
