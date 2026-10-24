@@ -3,10 +3,10 @@
 The source collection for server beta revision 2026.10.24.3 is prepared and published separately from the installer.
 
 - [Source-only release](https://github.com/alexvectorgsai/tabula-one-server/releases/tag/component-sources-2026.10.24.3)
-- [Source guide](https://github.com/alexvectorgsai/tabula-one-server/releases/download/untagged-f7804f637b12bc7bf346/SOURCE-README.md)
-- [Exact source index and SHA-256 values](https://github.com/alexvectorgsai/tabula-one-server/releases/download/untagged-f7804f637b12bc7bf346/SOURCES.json)
-- [Third-party license notices](https://github.com/alexvectorgsai/tabula-one-server/releases/download/untagged-f7804f637b12bc7bf346/THIRD-PARTY-NOTICES.txt)
-- [Checksum catalogue](https://github.com/alexvectorgsai/tabula-one-server/releases/download/untagged-f7804f637b12bc7bf346/SHA256SUMS)
+- [Source guide](https://github.com/alexvectorgsai/tabula-one-server/releases/download/component-sources-2026.10.24.3/SOURCE-README.md)
+- [Exact source index and SHA-256 values](https://github.com/alexvectorgsai/tabula-one-server/releases/download/component-sources-2026.10.24.3/SOURCES.json)
+- [Third-party license notices](https://github.com/alexvectorgsai/tabula-one-server/releases/download/component-sources-2026.10.24.3/THIRD-PARTY-NOTICES.txt)
+- [Checksum catalogue](https://github.com/alexvectorgsai/tabula-one-server/releases/download/component-sources-2026.10.24.3/SHA256SUMS)
 
 The five standalone source archive parts contain 2,425 verified source inputs: exact Debian source packages and Alpine recipes, native libvips inputs, Rust sources from the Garage/librsvg lockfiles, and Go modules/toolchains matched to the shipped binaries. The catalogue identifies the part containing each file.
 

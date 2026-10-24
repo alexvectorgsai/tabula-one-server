@@ -1,6 +1,6 @@
 # Third-party components
 
-The installer contains five pinned Linux/amd64 images: application, public edge, PostgreSQL, Garage and LiveKit. Exact image identities appear in its BUNDLE-MANIFEST.json and in [SOURCES.json](https://github.com/alexvectorgsai/tabula-one-server/releases/download/untagged-f7804f637b12bc7bf346/SOURCES.json).
+The installer contains five pinned Linux/amd64 images: application, public edge, PostgreSQL, Garage and LiveKit. Exact image identities appear in its BUNDLE-MANIFEST.json and in [SOURCES.json](https://github.com/alexvectorgsai/tabula-one-server/releases/download/component-sources-2026.10.24.3/SOURCES.json).
 
 License texts and corresponding source/build materials are available in the [source-only release](https://github.com/alexvectorgsai/tabula-one-server/releases/tag/component-sources-2026.10.24.3); see [SOURCES.md](SOURCES.md) for verification and component details. Original copyright and license texts remain authoritative. Application beta expiry does not terminate the upstream rights to third-party components.
 
