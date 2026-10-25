@@ -1,21 +1,28 @@
-# Tabula One — server beta
+# Tabula One для учебных центров
 
-Independent Linux server edition for learning centres. Teachers and students use their browsers.
+Независимая установка на Linux-сервер центра. Материалы, аккаунты, записи и
+видеосвязь обслуживаются на вашей стороне. Преподаватели и ученики работают в браузере.
 
-[Website](https://tabulaone.uz/server) · [Installation](INSTALL.md) · [Free beta access](BETA-ACCESS.md) · [Component sources](SOURCES.md)
+## Скачать и установить
 
-## Release status
+1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
+2. [Скачайте установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.1/tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz) и
+   [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.1/tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz.sha256).
+3. Выполните [пошаговую инструкцию](INSTALL.md): настройте сервер и создайте администратора.
+4. Отправьте ID установки представителю Tabula One и примените полученный JSON
+   в разделе «Администрирование → Бета-доступ установки».
 
-The installer is uploaded and verified in a **draft release**, pending the first assisted real-server installation and DNS/HTTPS/RTC/TURN acceptance. Public installer downloads are not open yet. The separately published component-source files are not an installer.
+Примеры адресов: class.example.org, media.example.org, turn.example.org. Замените
+example.org своим доменом и направьте все три адреса на IPv4 сервера центра.
+Основной сайт центра может оставаться на другом сервере.
 
-[Component sources and notices](https://github.com/alexvectorgsai/tabula-one-server/releases/tag/component-sources-2026.10.24.3) are available now. Download the source parts only if you need to inspect or rebuild components; they are not required at runtime.
+## Бесплатный бета-доступ
 
-## Бесплатная серверная бета
+Начальный ориентир — 30 дней с продлением. Срок выдаёт представитель Tabula One.
+Применяйте новый файл разрешения у себя: оставшиеся дни сохраняются, переустановка
+не требуется. Центр оплачивает собственные сервер и домен.
 
-Центр устанавливает отдельную копию на свой Linux-сервер. Материалы, аккаунты, записи и видеосвязь обслуживаются там. Нужны публичный IPv4, три поддомена и Docker Compose. Новый домен покупать необязательно.
+Нужен именно архив …bundle.4.tar.gz: автоматические архивы «Source code» его не заменяют.
 
-Бета бесплатна: по умолчанию 30 дней с продлением подписанным файлом. Сервер и домен оплачивает центр. Первые установки проводятся с сопровождением. Приватные ключи центра и ключ выдачи разрешений в этот репозиторий не входят.
-
-**Статус:** установщик загружен в черновик, локальные проверки пройдены. Публичная загрузка откроется после приёмки первой реальной установки. Исходники и уведомления сторонних компонентов уже опубликованы отдельно.
-
-Автоматические архивы Source code на GitHub содержат документы этого репозитория и не являются установочным комплектом. После публикации установочный архив и его отдельная контрольная сумма будут явно перечислены в выпуске.
+[Страница центра](https://tabulaone.uz/server) · [Условия доступа](BETA-ACCESS.md) ·
+[Исходники компонентов](SOURCES.md) · [Условия компонентов](THIRD-PARTY.md)
