@@ -6,8 +6,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.2/tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz) и
-   [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.2/tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz.sha256).
+2. [Скачайте установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.3/tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz) и
+   [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.3/tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md): настройте сервер и создайте администратора.
 4. Отправьте ID установки представителю Tabula One и примените полученный JSON
    в разделе «Администрирование → Бета-доступ установки».
@@ -22,7 +22,12 @@ example.org своим доменом и направьте все три адр
 Применяйте новый файл разрешения у себя: оставшиеся дни сохраняются, переустановка
 не требуется. Организация оплачивает собственные сервер и домен.
 
-Нужен именно архив …bundle.5.tar.gz: автоматические архивы «Source code» его не заменяют.
+Нужен именно архив …bundle.1.tar.gz: автоматические архивы «Source code» его не заменяют.
 
 [Страница организации](https://tabulaone.uz/server) · [Условия доступа](BETA-ACCESS.md) ·
 [Исходники компонентов](SOURCES.md) · [Условия компонентов](THIRD-PARTY.md)
+
+В этом выпуске обновлены приложение и интерфейс: исправлена нижняя панель,
+убран выход к списку из активного урока, добавлены отметки сообщений и улучшено
+усиление голоса. Базовые версии PostgreSQL, Garage, LiveKit и системных библиотек
+сохранены; действующие ID, разрешения и данные не нужно создавать заново.
