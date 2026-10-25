@@ -1,11 +1,11 @@
 # Установка готового серверного комплекта Tabula One
 
-Комплект `2026.10.25.1`, основа приложения `v0.2.20-beta.20261024`.
+Комплект `2026.10.25.2`, основа приложения `v0.2.20-beta.20261024`.
 Цель: Linux x86_64. На сервере не нужны Git, Node.js и доступ к репозиторию
 разработки. Преподаватели и ученики работают через браузер.
 
-Центр самостоятельно устанавливает комплект и присылает ID представителю Tabula One.
-Представитель выдаёт подписанный JSON: администратор центра применяет его у себя.
+Организация самостоятельно устанавливает комплект и присылает ID представителю Tabula One.
+Представитель выдаёт подписанный JSON: администратор организации применяет его у себя.
 
 ## Требования
 
@@ -24,18 +24,18 @@
 
 Скачайте на сервер оба файла из одного выпуска:
 
-- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.1/tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz)
-- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.1/tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz.sha256)
+- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.2/tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz)
+- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.2/tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz.sha256)
 
 Не используйте автоматические архивы GitHub «Source code»: готовые образы находятся
 в установочном комплекте. Скачать файлы можно следующими командами:
 
 ```bash
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.1/tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.1/tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz.sha256
-sha256sum --check tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz.sha256
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.2/tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.2/tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz.sha256
+sha256sum --check tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz.sha256
 mkdir tabula-one-bundle-20261025
-tar --no-same-owner -xzf tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz -C tabula-one-bundle-20261025
+tar --no-same-owner -xzf tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz -C tabula-one-bundle-20261025
 cd tabula-one-bundle-20261025
 ./tabula load
 ```
@@ -47,7 +47,7 @@ cd tabula-one-bundle-20261025
 ## 2. Настроить свою установку
 
 Использовать три поддомена уже имеющегося домена, например `class.example.org`,
-`media.example.org`, `turn.example.org`, направленные на сервер центра.
+`media.example.org`, `turn.example.org`, направленные на сервер организации.
 example.org — нейтральный пример: замените его своим доменом. Имена поддоменов
 можно изменить. Основной сайт может оставаться на другом сервере. Все адреса и пример IP ниже
 заменить своими. Пример `203.0.113.10` не пройдёт публичную проверку.
@@ -89,12 +89,12 @@ IPv4 этого сервера. Это подтверждение открыти
 пароли в аргументы командной строки не передавать.
 
 Почта по умолчанию выключена, эти команды работают без неё. Приглашения и
-восстановление по email требуют собственных настроек центра. Чужие ключи в
+восстановление по email требуют собственных настроек организации. Чужие ключи в
 комплект не входят.
 
 ## 4. Получить и применить разрешение
 
-1. Откройте сайт центра и войдите созданным администратором.
+1. Откройте сайт организации и войдите созданным администратором.
 2. Перейдите в «Администрирование → Бета-доступ установки».
 3. Скопируйте ID установки и отправьте представителю Tabula One, у которого получили
    доступ к бете. Пароли и ключи отправлять не требуется.
@@ -110,7 +110,7 @@ ID также показывает команда `./tabula identity`. До пр
 
 Проверить обычного преподавателя, PDF/доску, медиафайл и короткий звонок двух
 устройств из разных сетей; TURN — по фактическому маршруту. Локальная репетиция
-не заменяет публичные DNS, сертификаты и сеть конкретного центра.
+не заменяет публичные DNS, сертификаты и сеть конкретного организации.
 
 ```bash
 ./tabula stop

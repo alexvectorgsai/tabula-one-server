@@ -1,28 +1,28 @@
-# Tabula One для учебных центров
+# Tabula One для организаций
 
-Независимая установка на Linux-сервер центра. Материалы, аккаунты, записи и
+Независимая установка на Linux-сервер организации. Материалы, аккаунты, записи и
 видеосвязь обслуживаются на вашей стороне. Преподаватели и ученики работают в браузере.
 
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.1/tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz) и
-   [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.1/tabula-one-server-v0.2.20-beta.20261024-bundle.4.tar.gz.sha256).
+2. [Скачайте установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.2/tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz) и
+   [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.2/tabula-one-server-v0.2.20-beta.20261024-bundle.5.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md): настройте сервер и создайте администратора.
 4. Отправьте ID установки представителю Tabula One и примените полученный JSON
    в разделе «Администрирование → Бета-доступ установки».
 
 Примеры адресов: class.example.org, media.example.org, turn.example.org. Замените
-example.org своим доменом и направьте все три адреса на IPv4 сервера центра.
-Основной сайт центра может оставаться на другом сервере.
+example.org своим доменом и направьте все три адреса на IPv4 сервера организации.
+Основной сайт организации может оставаться на другом сервере.
 
 ## Бесплатный бета-доступ
 
 Начальный ориентир — 30 дней с продлением. Срок выдаёт представитель Tabula One.
 Применяйте новый файл разрешения у себя: оставшиеся дни сохраняются, переустановка
-не требуется. Центр оплачивает собственные сервер и домен.
+не требуется. Организация оплачивает собственные сервер и домен.
 
-Нужен именно архив …bundle.4.tar.gz: автоматические архивы «Source code» его не заменяют.
+Нужен именно архив …bundle.5.tar.gz: автоматические архивы «Source code» его не заменяют.
 
-[Страница центра](https://tabulaone.uz/server) · [Условия доступа](BETA-ACCESS.md) ·
+[Страница организации](https://tabulaone.uz/server) · [Условия доступа](BETA-ACCESS.md) ·
 [Исходники компонентов](SOURCES.md) · [Условия компонентов](THIRD-PARTY.md)
