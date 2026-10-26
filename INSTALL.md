@@ -1,6 +1,6 @@
 # Установка готового серверного комплекта Tabula One
 
-Комплект `2026.10.25.3`, основа приложения `v0.2.25-beta.20261025`.
+Комплект `2026.10.26.1`, основа приложения `v0.2.25-beta.20261025`.
 Цель: Linux x86_64. На сервере не нужны Git, Node.js и доступ к репозиторию
 разработки. Преподаватели и ученики работают через браузер.
 
@@ -24,18 +24,18 @@
 
 Скачайте на сервер оба файла из одного выпуска:
 
-- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.3/tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz)
-- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.3/tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz.sha256)
+- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.1/tabula-one-server-v0.2.26-beta.20261026-bundle.1.tar.gz)
+- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.1/tabula-one-server-v0.2.26-beta.20261026-bundle.1.tar.gz.sha256)
 
 Не используйте автоматические архивы GitHub «Source code»: готовые образы находятся
 в установочном комплекте. Скачать файлы можно следующими командами:
 
 ```bash
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.3/tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.3/tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz.sha256
-sha256sum --check tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz.sha256
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.1/tabula-one-server-v0.2.26-beta.20261026-bundle.1.tar.gz
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.1/tabula-one-server-v0.2.26-beta.20261026-bundle.1.tar.gz.sha256
+sha256sum --check tabula-one-server-v0.2.26-beta.20261026-bundle.1.tar.gz.sha256
 mkdir tabula-one-bundle-20261025
-tar --no-same-owner -xzf tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz -C tabula-one-bundle-20261025
+tar --no-same-owner -xzf tabula-one-server-v0.2.26-beta.20261026-bundle.1.tar.gz -C tabula-one-bundle-20261025
 cd tabula-one-bundle-20261025
 ./tabula load
 ```
@@ -136,3 +136,8 @@ ID также показывает команда `./tabula identity`. До пр
 и `./tabula identity`. Сверьте прежний ID, срок разрешения, аккаунты и материалы.
 Тома не удалять. Новый комплект обновляет приложение и применяет миграции;
 автоматическое обновление без скачивания комплекта пока не предусмотрено.
+
+В выпуске 2026.10.26.1 обновлён только интерфейс: компактная нижняя панель,
+собранная навигация PDF, управление звонком по центру и масштаб PDF Follow
+без пустых полей учителя. ID, разрешение и данные сохраняются; прежние app,
+PostgreSQL, Garage и LiveKit используются без изменений.

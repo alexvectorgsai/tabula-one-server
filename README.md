@@ -6,8 +6,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.3/tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz) и
-   [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.25.3/tabula-one-server-v0.2.25-beta.20261025-bundle.1.tar.gz.sha256).
+2. [Скачайте установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.1/tabula-one-server-v0.2.26-beta.20261026-bundle.1.tar.gz) и
+   [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.1/tabula-one-server-v0.2.26-beta.20261026-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md): настройте сервер и создайте администратора.
 4. Отправьте ID установки представителю Tabula One и примените полученный JSON
    в разделе «Администрирование → Бета-доступ установки».
@@ -31,3 +31,8 @@ example.org своим доменом и направьте все три адр
 убран выход к списку из активного урока, добавлены отметки сообщений и улучшено
 усиление голоса. Базовые версии PostgreSQL, Garage, LiveKit и системных библиотек
 сохранены; действующие ID, разрешения и данные не нужно создавать заново.
+
+В выпуске 2026.10.26.1 обновлён только интерфейс: компактная нижняя панель,
+собранная навигация PDF, управление звонком по центру и масштаб PDF Follow
+без пустых полей учителя. ID, разрешение и данные сохраняются; прежние app,
+PostgreSQL, Garage и LiveKit используются без изменений.
