@@ -1,6 +1,6 @@
 # Component sources and license notices
 
-Текущий комплект: **server-beta-2026.10.26.3 / v0.2.28-beta.20261026**. В нём обновлены первое приложение/API и веб-интерфейс: добавлено расписание преподавателя. Версии сторонних компонентов и их исходные архивы сохранены. [SOURCES.json текущего выпуска](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.3/SOURCES.json) содержит идентификаторы всех пяти образов, исходный commit и рецепт обновления.
+Текущий комплект: **server-beta-2026.10.26.3 / v0.2.28-beta.20261026**. В нём обновлены приложение/API и веб-интерфейс: добавлено расписание преподавателя. Версии сторонних компонентов и их исходные архивы сохранены. [SOURCES.json текущего выпуска](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.3/SOURCES.json) содержит идентификаторы всех пяти образов, исходный commit и рецепт обновления.
 
 
 The source collection for server beta revision 2026.10.24.3 is prepared and published separately from the installer.
