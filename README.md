@@ -6,8 +6,11 @@
 
 ## Текущий выпуск
 
-**server-beta-2026.10.26.3 · приложение v0.2.28-beta.20261026**
+**server-beta-2026.10.28.1 · приложение v0.2.29-beta.20261028**
 
+- На телефоне имя говорящего появляется рядом с языком без скачков шапки.
+- Нижние кнопки увеличены до размера микрофона и камеры, высота панели сохранена.
+- Сетка календаря открывается с 12:00; утро и ночь доступны прокруткой.
 - Расписание учеников и групп с общим количеством занятий и недельными повторами.
 - 8 занятий дважды в неделю = 4 недели. Время и длительность меняются с шагом 30 минут.
 - Проведённое отмечается зелёным, переносы — красным. Есть общие и индивидуальные заметки.
@@ -23,8 +26,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.3/tabula-one-server-v0.2.28-beta.20261026-bundle.1.tar.gz)
-   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.26.3/tabula-one-server-v0.2.28-beta.20261026-bundle.1.tar.gz.sha256).
+2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.28.1/tabula-one-server-v0.2.29-beta.20261028-bundle.1.tar.gz)
+   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.28.1/tabula-one-server-v0.2.29-beta.20261028-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md), создайте администратора.
 4. Примените JSON-разрешение в «Администрирование → Бета-доступ установки».
 
