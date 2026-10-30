@@ -24,18 +24,18 @@
 
 Скачайте на сервер оба файла из одного выпуска:
 
-- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.1/tabula-one-server-v0.2.30-beta.20261030-bundle.1.tar.gz)
-- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.1/tabula-one-server-v0.2.30-beta.20261030-bundle.1.tar.gz.sha256)
+- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.2/tabula-one-server-v0.2.31-beta.20261030-bundle.1.tar.gz)
+- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.2/tabula-one-server-v0.2.31-beta.20261030-bundle.1.tar.gz.sha256)
 
 Не используйте автоматические архивы GitHub «Source code»: готовые образы находятся
 в установочном комплекте. Скачать файлы можно следующими командами:
 
 ```bash
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.1/tabula-one-server-v0.2.30-beta.20261030-bundle.1.tar.gz
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.1/tabula-one-server-v0.2.30-beta.20261030-bundle.1.tar.gz.sha256
-sha256sum --check tabula-one-server-v0.2.30-beta.20261030-bundle.1.tar.gz.sha256
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.2/tabula-one-server-v0.2.31-beta.20261030-bundle.1.tar.gz
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.2/tabula-one-server-v0.2.31-beta.20261030-bundle.1.tar.gz.sha256
+sha256sum --check tabula-one-server-v0.2.31-beta.20261030-bundle.1.tar.gz.sha256
 mkdir tabula-one-bundle-20261025
-tar --no-same-owner -xzf tabula-one-server-v0.2.30-beta.20261030-bundle.1.tar.gz -C tabula-one-bundle-20261025
+tar --no-same-owner -xzf tabula-one-server-v0.2.31-beta.20261030-bundle.1.tar.gz -C tabula-one-bundle-20261025
 cd tabula-one-bundle-20261025
 ./tabula load
 ```
@@ -183,3 +183,16 @@ PostgreSQL, Garage и LiveKit используются без изменений
 Меняется только public-edge/web. API, beta-политика, 50 миграций и четыре других
 образа сохранены. Обновляйте по разделу выше: резервная копия, сохранение .env,
 .secrets, ID и имени проекта; без configure и удаления томов.
+
+
+## Связь, PDF и реакции в выпуске 2026.10.30.2
+
+Фоновая вкладка не вызывает принудительный выход из звонка. PDF сначала
+показывается уменьшенным, затем в полном качестве; это касается и домашней
+работы. Увеличено окно доставки реакций, добавлена грустная эмоция. Галочка/True
+по умолчанию зелёные, крестик/False красные, размер — 14 px.
+
+Обновлены app/API и public-edge/web; новые миграции и зависимости не добавлены.
+Сохраняются 50 миграций, серверное beta-разрешение, ID, конфигурация и данные.
+Обновляйте с резервной копией, без повторного configure и удаления томов.
+Физический Safari и сеть центра проверяются отдельно.
