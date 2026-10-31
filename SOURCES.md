@@ -1,5 +1,8 @@
 # Component sources and license notices
 
+Текущий полный комплект: **server-beta-2026.11.01.1 / v0.2.37-beta.20261101**. Все текущие исправления уже включены; отдельное обновление после новой установки не нужно. Исходный commit 0fabad8426ed47de7e443b059ea16859e4762966. [Индекс исходников и образов](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.01.1/SOURCES.json), [описание сборки](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.01.1/SOURCE-README.md). Состав зависимостей и три инфраструктурных образа сохранены; прежние архивы исходников компонентов остаются применимыми. Ниже — история предыдущих выпусков и материалов.
+
+
 Текущий полный комплект: **server-beta-2026.10.31.4 / v0.2.36-beta.20261031**. Все текущие исправления уже включены; отдельное обновление после новой установки не нужно. Исходный commit 68848a5dff7406875bc3108e05f76616ee96c081. [Индекс исходников и образов](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.4/SOURCES.json), [описание сборки](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.4/SOURCE-README.md). Состав зависимостей и три инфраструктурных образа сохранены; прежние архивы исходников компонентов остаются применимыми. Ниже — история предыдущих выпусков и материалов.
 
 

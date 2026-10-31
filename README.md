@@ -6,7 +6,7 @@
 
 ## Текущий выпуск
 
-**server-beta-2026.10.31.4 · приложение v0.2.36-beta.20261031**
+**server-beta-2026.11.01.1 · приложение v0.2.37-beta.20261101**
 
 - Последние исправления отрисовки PDF при Follow/масштабировании и облегчённой загрузки страниц уже входят в этот полный комплект.
 - Добавлен технический журнал восстановления звонка без записи речи или видео. Причина эха на реальном MacBook/Safari пока не подтверждена.
@@ -36,8 +36,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.4/tabula-one-server-v0.2.36-beta.20261031-bundle.1.tar.gz)
-   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.4/tabula-one-server-v0.2.36-beta.20261031-bundle.1.tar.gz.sha256).
+2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.01.1/tabula-one-server-v0.2.37-beta.20261101-bundle.1.tar.gz)
+   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.01.1/tabula-one-server-v0.2.37-beta.20261101-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md), создайте администратора.
 4. Примените JSON-разрешение в «Администрирование → Бета-доступ установки».
 
