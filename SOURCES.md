@@ -1,6 +1,9 @@
 # Component sources and license notices
 
-Текущий комплект: **server-beta-2026.10.31.1 / v0.2.32-beta.20261031**. Исправлены удаление и повторное добавление еженедельного времени, добавлена кнопка «К группам», верхняя часть календаря стала компактнее. Обновлены app/shared и public-edge/web; три инфраструктурных образа, 50 миграций, зависимости и beta-политика сохранены. [SOURCES.json текущего выпуска](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.1/SOURCES.json) описывает сборку и образы.
+Текущий комплект: **server-beta-2026.10.31.2 / v0.2.35-beta.20261031**. [Малые обновления и восстановление](UPDATE.md); [описание источников текущего комплекта](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.2/SOURCES.json). Зависимости и инфраструктура прежние; актуальные локальные образы после малого обновления указаны в BUNDLE-MANIFEST.json и подписанном update.current.json.
+
+
+Предыдущий комплект: **server-beta-2026.10.31.1 / v0.2.32-beta.20261031**. Исправлены удаление и повторное добавление еженедельного времени, добавлена кнопка «К группам», верхняя часть календаря стала компактнее. Обновлены app/shared и public-edge/web; три инфраструктурных образа, 50 миграций, зависимости и beta-политика сохранены. [SOURCES.json текущего выпуска](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.1/SOURCES.json) описывает сборку и образы.
 
 
 Предыдущий комплект: **server-beta-2026.10.30.2 / v0.2.31-beta.20261030**. Обновлены app/API/shared и public-edge/web: связь при заморозке вкладки, постепенная загрузка PDF, доставка реакций и грустная эмоция, зелёные/красные отметки по 14 px. Схема из 50 миграций, зависимости, beta-политика и три инфраструктурных образа сохранены. [SOURCES.json текущего выпуска](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.30.2/SOURCES.json) описывает сборку и пять образов.

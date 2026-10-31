@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "manifest": {
+    "schemaVersion": 1,
+    "product": "tabula-one-server",
+    "protocol": 1,
+    "platform": "linux/amd64",
+    "revision": "2026.10.31.2",
+    "sourceCommit": "8f26f786ae7314e2976c20cf18dd5a9a5b7d122b",
+    "sourceRelease": "v0.2.35-beta.20261031",
+    "publishedAt": "2026-10-31T10:06:07.924Z",
+    "notes": "Подписанные малые обновления, резервная копия и возврат прежней версии при ошибке. Включены исправления PDF-ссылки без названия, минимальной высоты аудио и распределения конечного количества занятий по неделям.",
+    "compatibility": {
+      "fingerprint": "6275de2b34ddf1a910ceb3622b11b2dabbe28987dc5eae7db6b23b03c88481ab",
+      "migrations": "32bf4fac9f18e60b4b399e7e83aebfc265dd24320ee85e3771d93cec828b0f4c",
+      "migrationCount": 50,
+      "rollbackSafe": true,
+      "legacyBases": [
+        {
+          "revision": "2026.10.30.2",
+          "sourceCommit": "4235b82c0b069c8f7ad93604ef8f00db8f83333b",
+          "images": {
+            "app": "sha256:70ba5b57395284e45ba705912ea48004be1a534d971a1cfb23a35aa318e50b0f",
+            "public-edge": "sha256:5342330f89852400d3b6bad10f678b98070a45fc08e510406217292548ffbbb7",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
+        },
+        {
+          "revision": "2026.10.31.1",
+          "sourceCommit": "89a669f8dbec6becc269cf4fa23769c5f1c9bbce",
+          "images": {
+            "app": "sha256:bbc9bc9f1cafc7c4f8bb09dcbf9f40c1ddf0d28dfa2cb740dc78fea25b767a30",
+            "public-edge": "sha256:cd37a54672f5c446ed986120bc8e6ab7b1a4e40aa953008f85c73e2635bc35d0",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
+        },
+        {
+          "revision": "2026.10.31.2",
+          "sourceCommit": "8f26f786ae7314e2976c20cf18dd5a9a5b7d122b",
+          "images": {
+            "app": "sha256:c71dae89974127edf19676a6cf5ce81f7e561407f708bd8cd3237565a7639396",
+            "public-edge": "sha256:fc1b65b1a5d5f168fe889b0b0e6060e29167fb13174fe428c144f0285d0e8571",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
+        }
+      ]
+    },
+    "payload": {
+      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.2/tabula-one-update-2026.10.31.2.json.gz",
+      "bytes": 4365711,
+      "sha256": "b0661b2f2a5ee436e3d3df92ad41e1cda2824471b52cb9963d5e70685e97bc31",
+      "unpackedBytes": 12534004,
+      "fileCount": 732
+    }
+  },
+  "signature": "6FX/wA6/oim6JUPXLy1N1vVPE+1hFn7/xv+6qDCvQKtXtuv/4oOYvvBlwghgLAsskWStfIXzQycWs+b5wQGIBg=="
+}
