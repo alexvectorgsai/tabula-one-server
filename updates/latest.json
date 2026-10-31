@@ -5,11 +5,11 @@
     "product": "tabula-one-server",
     "protocol": 1,
     "platform": "linux/amd64",
-    "revision": "2026.10.31.2",
-    "sourceCommit": "8f26f786ae7314e2976c20cf18dd5a9a5b7d122b",
-    "sourceRelease": "v0.2.35-beta.20261031",
-    "publishedAt": "2026-10-31T10:06:07.924Z",
-    "notes": "Подписанные малые обновления, резервная копия и возврат прежней версии при ошибке. Включены исправления PDF-ссылки без названия, минимальной высоты аудио и распределения конечного количества занятий по неделям.",
+    "revision": "2026.10.31.3",
+    "sourceCommit": "b809ed06b21566410e4c2a969fa62af2a8a9a7fe",
+    "sourceRelease": "v0.2.36-beta.20261031",
+    "publishedAt": "2026-10-31T16:11:44.559Z",
+    "notes": "Исправлены повторные отмены первой отрисовки PDF при Follow/масштабировании и обход облегчённого изображения через кэш SVG. Добавлен ограниченный технический журнал восстановления звонка без записи речи или видео. Причина реального эха в Safari ещё проверяется.",
     "compatibility": {
       "fingerprint": "6275de2b34ddf1a910ceb3622b11b2dabbe28987dc5eae7db6b23b03c88481ab",
       "migrations": "32bf4fac9f18e60b4b399e7e83aebfc265dd24320ee85e3771d93cec828b0f4c",
@@ -52,12 +52,12 @@
       ]
     },
     "payload": {
-      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.2/tabula-one-update-2026.10.31.2.json.gz",
-      "bytes": 4365711,
-      "sha256": "b0661b2f2a5ee436e3d3df92ad41e1cda2824471b52cb9963d5e70685e97bc31",
-      "unpackedBytes": 12534004,
-      "fileCount": 732
+      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.3/tabula-one-update-2026.10.31.3.json.gz",
+      "bytes": 4377414,
+      "sha256": "ee6037ba9324cfa2581b4aa9df1a61f51af0e3b7b49d0ecf0b4e65b7c79fb2fa",
+      "unpackedBytes": 12572733,
+      "fileCount": 741
     }
   },
-  "signature": "6FX/wA6/oim6JUPXLy1N1vVPE+1hFn7/xv+6qDCvQKtXtuv/4oOYvvBlwghgLAsskWStfIXzQycWs+b5wQGIBg=="
+  "signature": "cR1znLUmo5+aCeXyAtqAMEfkohCFd94UQaC9eY6SRwSy9A350OXP7Jz70liuLYn5A99A5ANnQ0m+aUQQeYl0Dg=="
 }
