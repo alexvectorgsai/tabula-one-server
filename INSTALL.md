@@ -1,6 +1,6 @@
 # Установка готового серверного комплекта Tabula One
 
-Комплект `2026.11.04.1`, приложение `v0.2.39-beta.20261104`.
+Комплект `2026.11.04.2`, приложение `v0.2.40-beta.20261104`.
 Цель: Linux x86_64. На сервере не нужны Git, Node.js и доступ к репозиторию
 разработки. Преподаватели и ученики работают через браузер.
 
@@ -10,7 +10,8 @@
 ## Требования
 
 - Linux-сервер с Docker Engine и Docker Compose 2.24.4+.
-- Bash, curl, sha256sum, tar, getent, ip, ss, df, free.
+- Bash, curl, sha256sum, tar, getent, ip, ss, df, free, flock, stat.
+- Для фоновых обновлений из браузера: systemd (рекомендуется) и право sudo у установщика. Служба добавляется при `./tabula start`; Node.js на хосте не нужен.
 - Постоянный публичный IPv4, управление DNS и три A-записи: сайт, media, TURN.
 - Входящие TCP 80/443/7881, UDP 7882 и UDP 30000–30099. SSH сохранить;
   БД и служебные административные интерфейсы наружу не публиковать.
@@ -24,18 +25,18 @@
 
 Скачайте на сервер оба файла из одного выпуска:
 
-- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.1/tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz)
-- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.1/tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz.sha256)
+- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.2/tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz)
+- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.2/tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz.sha256)
 
 Не используйте автоматические архивы GitHub «Source code»: готовые образы находятся
 в установочном комплекте. Скачать файлы можно следующими командами:
 
 ```bash
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.1/tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.1/tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz.sha256
-sha256sum --check tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz.sha256
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.2/tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.2/tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz.sha256
+sha256sum --check tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz.sha256
 mkdir tabula-one-bundle-20261031
-tar --no-same-owner -xzf tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz -C tabula-one-bundle-20261031
+tar --no-same-owner -xzf tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz -C tabula-one-bundle-20261031
 cd tabula-one-bundle-20261031
 ./tabula load
 ```

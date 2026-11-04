@@ -6,7 +6,10 @@
 
 ## Текущий выпуск
 
-**server-beta-2026.11.04.1 · приложение v0.2.39-beta.20261104**
+**server-beta-2026.11.04.2 · приложение v0.2.40-beta.20261104**
+
+- Проверка и установка обновлений кнопкой в администрировании организации, с сохранением результата после перезагрузки страницы.
+- Кнопки PDF/доски привязаны к углу рабочей области; пояснение в настройках стиля не перекрывает отмену на HD.
 
 - Запуск, пауза, перемотка и скорость ученика меняют только его плеер, включая урок один на один и Follow. Общим воспроизведением управляет преподаватель; его запуск возвращает всех к его позиции.
 
@@ -40,8 +43,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.1/tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz)
-   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.1/tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz.sha256).
+2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.2/tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz)
+   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.2/tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md), создайте администратора.
 4. Примените JSON-разрешение в «Администрирование → Бета-доступ установки».
 
