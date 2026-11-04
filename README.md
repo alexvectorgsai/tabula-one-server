@@ -6,7 +6,9 @@
 
 ## Текущий выпуск
 
-**server-beta-2026.11.03.1 · приложение v0.2.38-beta.20261103**
+**server-beta-2026.11.04.1 · приложение v0.2.39-beta.20261104**
+
+- Запуск, пауза, перемотка и скорость ученика меняют только его плеер, включая урок один на один и Follow. Общим воспроизведением управляет преподаватель; его запуск возвращает всех к его позиции.
 
 - Исправлено расхождение общего загруженного видео после задержанного старта: плеер возвращается к общей позиции, пауза выравнивает кадр у участников.
 
@@ -38,8 +40,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.03.1/tabula-one-server-v0.2.38-beta.20261103-bundle.1.tar.gz)
-   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.03.1/tabula-one-server-v0.2.38-beta.20261103-bundle.1.tar.gz.sha256).
+2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.1/tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz)
+   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.1/tabula-one-server-v0.2.39-beta.20261104-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md), создайте администратора.
 4. Примените JSON-разрешение в «Администрирование → Бета-доступ установки».
 
