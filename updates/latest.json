@@ -5,11 +5,11 @@
     "product": "tabula-one-server",
     "protocol": 1,
     "platform": "linux/amd64",
-    "revision": "2026.10.31.3",
-    "sourceCommit": "b809ed06b21566410e4c2a969fa62af2a8a9a7fe",
-    "sourceRelease": "v0.2.36-beta.20261031",
-    "publishedAt": "2026-10-31T16:11:44.559Z",
-    "notes": "Исправлены повторные отмены первой отрисовки PDF при Follow/масштабировании и обход облегчённого изображения через кэш SVG. Добавлен ограниченный технический журнал восстановления звонка без записи речи или видео. Причина реального эха в Safari ещё проверяется.",
+    "revision": "2026.11.05.1",
+    "sourceCommit": "58e16ab7a18612ce2396a061ed44b7b3dcda39a9",
+    "sourceRelease": "v0.2.41-beta.20261105",
+    "publishedAt": "2026-11-05T17:45:49.214Z",
+    "notes": "Редактирование уже размещённых полей ответа и ссылок, сохранение небольшой высоты ссылок, устранение вспышки при возврате к PDF и лишней нижней полосы. Данные, настройки, API, зависимости и схема базы сохранены.",
     "compatibility": {
       "fingerprint": "6275de2b34ddf1a910ceb3622b11b2dabbe28987dc5eae7db6b23b03c88481ab",
       "migrations": "32bf4fac9f18e60b4b399e7e83aebfc265dd24320ee85e3771d93cec828b0f4c",
@@ -48,16 +48,71 @@
             "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
             "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
           }
+        },
+        {
+          "revision": "2026.10.31.4",
+          "sourceCommit": "68848a5dff7406875bc3108e05f76616ee96c081",
+          "images": {
+            "app": "sha256:19cf1179e0179a8a2ddb25e0e4c361ee7d5fad78970f0beafcf82c7878a177b5",
+            "public-edge": "sha256:5ff549c484b1e4bb7c821df3a2703816111e4c24081ce7f4b3281f5ba6704732",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
+        },
+        {
+          "revision": "2026.11.01.1",
+          "sourceCommit": "0fabad8426ed47de7e443b059ea16859e4762966",
+          "images": {
+            "app": "sha256:da755caa5960d93a25dc9cfddf26ccc126dd02cb909dcec7d282bcda0ecaf23d",
+            "public-edge": "sha256:93fd76a67afc6a2a09995c8988915e56e7a9aee9edda5fbf455a94ee4384712e",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
+        },
+        {
+          "revision": "2026.11.03.1",
+          "sourceCommit": "f4f6f2835e23cc0bb205b273edecafbf6ed8155d",
+          "images": {
+            "app": "sha256:0c8b84e1a65b48498b7ed51446b81bfc744097f12dee07b23b9f2ffaad3b0575",
+            "public-edge": "sha256:39f45bfa36258ac1da9ad2e79a0b1bd775f1efa8687dc8cfb965642c10adbd25",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
+        },
+        {
+          "revision": "2026.11.04.1",
+          "sourceCommit": "763aa32be71fa307a02b673ba3f3fef38c4b5778",
+          "images": {
+            "app": "sha256:5ddad65b561f43caf65c4ddd8c6591eccfa323f9b6b4df389fcba2d602abcd69",
+            "public-edge": "sha256:8947b40a19a9fe51303b635e3128234ce62df0d8ff1b26493b9fe72aa9a56589",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
+        },
+        {
+          "revision": "2026.11.04.2",
+          "sourceCommit": "e98ec3245b8bf7e1a4e27c81600720c733e519c7",
+          "images": {
+            "app": "sha256:3c51cdfe3cdb002c4d458afbb7f698e97c666184d914da42451c3ea81c6a763c",
+            "public-edge": "sha256:9620a76142f4b5ae292245f1a4affa2b81476947d3f4f7199bba7ea5eaeafa36",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
         }
       ]
     },
     "payload": {
-      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.10.31.3/tabula-one-update-2026.10.31.3.json.gz",
-      "bytes": 4377414,
-      "sha256": "ee6037ba9324cfa2581b4aa9df1a61f51af0e3b7b49d0ecf0b4e65b7c79fb2fa",
-      "unpackedBytes": 12572733,
-      "fileCount": 741
+      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.05.1/tabula-one-update-2026.11.05.1.json.gz",
+      "bytes": 4418803,
+      "sha256": "eb004818e7838c426f425ef7d43fb42879feab7c2ce242aec71b9e1982878be6",
+      "unpackedBytes": 12716366,
+      "fileCount": 751
     }
   },
-  "signature": "cR1znLUmo5+aCeXyAtqAMEfkohCFd94UQaC9eY6SRwSy9A350OXP7Jz70liuLYn5A99A5ANnQ0m+aUQQeYl0Dg=="
+  "signature": "7wX7z1fnOuPJ06GrYJGdbQqeJM8N2tFqbMVfdznwWtJTtqHfRhalP21ylvUcPzh3YxFgSoqbpQuAgFsb3jRcDA=="
 }

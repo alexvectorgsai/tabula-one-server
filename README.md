@@ -6,7 +6,11 @@
 
 ## Текущий выпуск
 
-**server-beta-2026.11.04.2 · приложение v0.2.40-beta.20261104**
+**server-beta-2026.11.05.1 · приложение v0.2.41-beta.20261105**
+
+- Размещённые поля ответа и ссылки редактируются кнопкой «Изменить» и двойным нажатием инструментом «Выбор».
+- Тонкие ссылки сохраняют высоту при перемещении и изменении размера; при возвращении к PDF нет вспышки ссылки в углу.
+- Удалена лишняя полоса бета под панелью PDF/доски, рабочая поверхность стала выше.
 
 - Проверка и установка обновлений кнопкой в администрировании организации, с сохранением результата после перезагрузки страницы.
 - Кнопки PDF/доски привязаны к углу рабочей области; пояснение в настройках стиля не перекрывает отмену на HD.
@@ -43,8 +47,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.2/tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz)
-   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.04.2/tabula-one-server-v0.2.40-beta.20261104-bundle.1.tar.gz.sha256).
+2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.05.1/tabula-one-server-v0.2.41-beta.20261105-bundle.1.tar.gz)
+   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.05.1/tabula-one-server-v0.2.41-beta.20261105-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md), создайте администратора.
 4. Примените JSON-разрешение в «Администрирование → Бета-доступ установки».
 
