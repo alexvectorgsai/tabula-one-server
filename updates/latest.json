@@ -5,11 +5,11 @@
     "product": "tabula-one-server",
     "protocol": 1,
     "platform": "linux/amd64",
-    "revision": "2026.11.05.1",
-    "sourceCommit": "58e16ab7a18612ce2396a061ed44b7b3dcda39a9",
-    "sourceRelease": "v0.2.41-beta.20261105",
-    "publishedAt": "2026-11-05T17:45:49.214Z",
-    "notes": "Редактирование уже размещённых полей ответа и ссылок, сохранение небольшой высоты ссылок, устранение вспышки при возврате к PDF и лишней нижней полосы. Данные, настройки, API, зависимости и схема базы сохранены.",
+    "revision": "2026.11.06.1",
+    "sourceCommit": "6b24728b4a494c0b15795fb1d46e64dc6d2c91b0",
+    "sourceRelease": "v0.2.42-beta.20261106",
+    "publishedAt": "2026-11-05T19:56:42.018Z",
+    "notes": "Быстрый выбор PDF, запись по решению преподавателя без подтверждения ученика, устойчивее канал материалов, сохранение карточки при живом аудио, восстановление звука и жесты Safari. API и web обновлены; данные, настройки, зависимости и схема сохранены. Физическое эхо требует проверки уроком.",
     "compatibility": {
       "fingerprint": "6275de2b34ddf1a910ceb3622b11b2dabbe28987dc5eae7db6b23b03c88481ab",
       "migrations": "32bf4fac9f18e60b4b399e7e83aebfc265dd24320ee85e3771d93cec828b0f4c",
@@ -103,16 +103,27 @@
             "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
             "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
           }
+        },
+        {
+          "revision": "2026.11.05.1",
+          "sourceCommit": "58e16ab7a18612ce2396a061ed44b7b3dcda39a9",
+          "images": {
+            "app": "sha256:3c51cdfe3cdb002c4d458afbb7f698e97c666184d914da42451c3ea81c6a763c",
+            "public-edge": "sha256:542464ff3220fbab0767c6ff86ca3905a2b2b8e58b8eeb5eb11dbf5fc6a2dcd9",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
         }
       ]
     },
     "payload": {
-      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.05.1/tabula-one-update-2026.11.05.1.json.gz",
-      "bytes": 4418803,
-      "sha256": "eb004818e7838c426f425ef7d43fb42879feab7c2ce242aec71b9e1982878be6",
-      "unpackedBytes": 12716366,
+      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-update-2026.11.06.1.json.gz",
+      "bytes": 4419926,
+      "sha256": "8bd2e783614e0084818f47f367fb9733802b78870d3a14f739a1c3f7c3c86685",
+      "unpackedBytes": 12725089,
       "fileCount": 751
     }
   },
-  "signature": "7wX7z1fnOuPJ06GrYJGdbQqeJM8N2tFqbMVfdznwWtJTtqHfRhalP21ylvUcPzh3YxFgSoqbpQuAgFsb3jRcDA=="
+  "signature": "HRDe+cicVJWo+hSApDbm1iHYcL0tHdldfAA8rj1/sxpFOW0l5cCAYYbuBjOqocoohQKTOJm+eaRbJ/t74XG/Cg=="
 }

@@ -6,7 +6,12 @@
 
 ## Текущий выпуск
 
-**server-beta-2026.11.05.1 · приложение v0.2.41-beta.20261105**
+**server-beta-2026.11.06.1 · приложение v0.2.42-beta.20261106**
+
+- Выбор добавленных PDF в нижней панели.
+- Преподаватель запускает запись без подтверждения ученика; ученик видит индикатор в верхней панели.
+- Устойчивее соединение с материалами при запоздавших ответах; карточка не исчезает при продолжающемся голосе.
+- В устройствах связи есть «Восстановить звук». Физическое устранение эха в Safari требует проверки уроком.
 
 - Размещённые поля ответа и ссылки редактируются кнопкой «Изменить» и двойным нажатием инструментом «Выбор».
 - Тонкие ссылки сохраняют высоту при перемещении и изменении размера; при возвращении к PDF нет вспышки ссылки в углу.
@@ -47,8 +52,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.05.1/tabula-one-server-v0.2.41-beta.20261105-bundle.1.tar.gz)
-   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.05.1/tabula-one-server-v0.2.41-beta.20261105-bundle.1.tar.gz.sha256).
+2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz)
+   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md), создайте администратора.
 4. Примените JSON-разрешение в «Администрирование → Бета-доступ установки».
 
