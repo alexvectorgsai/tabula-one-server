@@ -5,11 +5,11 @@
     "product": "tabula-one-server",
     "protocol": 1,
     "platform": "linux/amd64",
-    "revision": "2026.11.06.3",
-    "sourceCommit": "7e19d79142fbde24b4cae3465adf4f6bbba32c00",
-    "sourceRelease": "v0.2.44-beta.20261106",
-    "publishedAt": "2026-11-06T17:22:12.804Z",
-    "notes": "Исправлены навигация домашней работы, зависающие подсказки полноэкранного режима и поворот кнопок/подписи курсора на телефоне. Обновляется только веб-интерфейс; данные и серверные службы сохранены.",
+    "revision": "2026.11.06.4",
+    "sourceCommit": "8b6a79f8c27d069425d95df5cfa8db0a473a9b0d",
+    "sourceRelease": "v0.2.45-beta.20261106",
+    "publishedAt": "2026-11-06T18:51:47.458Z",
+    "notes": "Индикатор записи ученика на телефоне стал компактной горизонтальной строкой с таймером. Изменён только веб-интерфейс; захват записи, связь, серверные службы и данные сохранены.",
     "compatibility": {
       "fingerprint": "6275de2b34ddf1a910ceb3622b11b2dabbe28987dc5eae7db6b23b03c88481ab",
       "migrations": "32bf4fac9f18e60b4b399e7e83aebfc265dd24320ee85e3771d93cec828b0f4c",
@@ -136,16 +136,27 @@
             "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
             "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
           }
+        },
+        {
+          "revision": "2026.11.06.3",
+          "sourceCommit": "7e19d79142fbde24b4cae3465adf4f6bbba32c00",
+          "images": {
+            "app": "sha256:202bd58eda94bdb66f8853d250a338a96e3348a8d389790b1fb72a275f27eafa",
+            "public-edge": "sha256:2e0e2d775d1415a3c0699dcbe55abf1738bd08bb5c601b407e0370ee0b8f9606",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
         }
       ]
     },
     "payload": {
-      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.3/tabula-one-update-2026.11.06.3.json.gz",
-      "bytes": 4475936,
-      "sha256": "42babf5527028c338959174536d52169b36f1cc3ced4067e986ae6fa575934e3",
-      "unpackedBytes": 12920037,
+      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.4/tabula-one-update-2026.11.06.4.json.gz",
+      "bytes": 4477387,
+      "sha256": "76c6a0f518eec69f7c5c3ede970797a0fcc9ef789c37f02a392aa7ca5f9e2ea9",
+      "unpackedBytes": 12921641,
       "fileCount": 766
     }
   },
-  "signature": "U+vdvgarqglQXN16oOfU9bDk/ICXnfb7IfmXeKCB8VXajCOGyT2AFGt33zqQ+CDxEiIm4I0CwZqA2fMC7ilBDQ=="
+  "signature": "r59AnTqmF5wciH2rd2VJodBB6dV8xXLmGk8+E6rzJgBDifgp06iPBqE8Py36gPG9F5yyCtmUAXHrvBzYAyXiCg=="
 }

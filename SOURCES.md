@@ -1,5 +1,8 @@
 # Component sources and license notices
 
+Текущий выпуск: **server-beta-2026.11.06.4 / v0.2.45-beta.20261106**. Компактный индикатор записи ученика включён в полный комплект и подписанное небольшое обновление. Исходный commit 8b6a79f8c27d069425d95df5cfa8db0a473a9b0d. [Состав и происхождение образов](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.4/SOURCES.json), [описание](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.4/SOURCE-README.md). В полном комплекте изменён только веб-образ; API, четыре остальных образа, зависимости и миграции сохранены. Ниже — история.
+
+
 Текущий выпуск: **server-beta-2026.11.06.3 / v0.2.44-beta.20261106**. Исправления навигации, подсказок и поворота включены в полный комплект и подписанное небольшое обновление. Исходный commit 7e19d79142fbde24b4cae3465adf4f6bbba32c00. [Состав и происхождение образов](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.3/SOURCES.json), [описание](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.3/SOURCE-README.md). В полном комплекте изменён только веб-образ; API, четыре остальных образа, зависимости и миграции сохранены. Ниже — история.
 
 
