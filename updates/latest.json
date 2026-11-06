@@ -5,11 +5,11 @@
     "product": "tabula-one-server",
     "protocol": 1,
     "platform": "linux/amd64",
-    "revision": "2026.11.06.2",
-    "sourceCommit": "1d73da7e7afc442352f7dbf6bf614aae5a10d197",
-    "sourceRelease": "v0.2.43-beta.20261106",
-    "publishedAt": "2026-11-06T08:41:06.655Z",
-    "notes": "Диагностика уроков: отдельные показатели учителя, ученика и сервера, отметки сбоя, графики и скачивание отчёта. Плановая очистка временных файлов в 03:00 по Ташкенту с отсрочкой на время уроков. Данные, настройки, зависимости и схема сохранены. Причина эха пока не доказана.",
+    "revision": "2026.11.06.3",
+    "sourceCommit": "7e19d79142fbde24b4cae3465adf4f6bbba32c00",
+    "sourceRelease": "v0.2.44-beta.20261106",
+    "publishedAt": "2026-11-06T17:22:12.804Z",
+    "notes": "Исправлены навигация домашней работы, зависающие подсказки полноэкранного режима и поворот кнопок/подписи курсора на телефоне. Обновляется только веб-интерфейс; данные и серверные службы сохранены.",
     "compatibility": {
       "fingerprint": "6275de2b34ddf1a910ceb3622b11b2dabbe28987dc5eae7db6b23b03c88481ab",
       "migrations": "32bf4fac9f18e60b4b399e7e83aebfc265dd24320ee85e3771d93cec828b0f4c",
@@ -125,16 +125,27 @@
             "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
             "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
           }
+        },
+        {
+          "revision": "2026.11.06.2",
+          "sourceCommit": "1d73da7e7afc442352f7dbf6bf614aae5a10d197",
+          "images": {
+            "app": "sha256:202bd58eda94bdb66f8853d250a338a96e3348a8d389790b1fb72a275f27eafa",
+            "public-edge": "sha256:7b2e83f46fc76cccdbf6ee97be1ff2896a0d68b1a7225ae68594d1f7593571b0",
+            "postgres": "sha256:8d6ed4b5a1f44557313cab42a8951c53d1b86ccc899266bcee2ee1ee84076c14",
+            "storage": "sha256:5eda3acb72a0b6c3432233d19b07dffabd9ee7eb93be90031bae75e4b81e6324",
+            "livekit": "sha256:2e1af05fbc12d26572cc9df34c2316bd50ac424150fbc21caa3c4401270f920b"
+          }
         }
       ]
     },
     "payload": {
-      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-update-2026.11.06.2.json.gz",
-      "bytes": 4475950,
-      "sha256": "904ee6c366fc887d841c8c1364bd3e950a975fca1fb80faa998f7ac8029a53c7",
-      "unpackedBytes": 12915945,
+      "url": "https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.3/tabula-one-update-2026.11.06.3.json.gz",
+      "bytes": 4475936,
+      "sha256": "42babf5527028c338959174536d52169b36f1cc3ced4067e986ae6fa575934e3",
+      "unpackedBytes": 12920037,
       "fileCount": 766
     }
   },
-  "signature": "A1eL0gq4azkHcKPWAG0lt90jRGYhsg2tiPxePvurz8tesLlxo/zXWa8GRV5CltJfLElnY48j1zq7CMRKwBlIDA=="
+  "signature": "U+vdvgarqglQXN16oOfU9bDk/ICXnfb7IfmXeKCB8VXajCOGyT2AFGt33zqQ+CDxEiIm4I0CwZqA2fMC7ilBDQ=="
 }

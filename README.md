@@ -4,9 +4,11 @@
 расписания, записи и видеосвязь обслуживаются на сервере организации.
 Преподаватели и ученики работают в браузере.
 
+Обновление интерфейса: общая навигация в домашней работе, закрытие подсказок полноэкранного режима и поворот управления вместе с PDF/доской на телефоне.
+
 ## Текущий выпуск
 
-**server-beta-2026.11.06.2 · приложение v0.2.43-beta.20261106**
+**server-beta-2026.11.06.3 · приложение v0.2.44-beta.20261106**
 
 - Выбор добавленных PDF в нижней панели.
 - Преподаватель запускает запись без подтверждения ученика; ученик видит индикатор в верхней панели.
@@ -52,8 +54,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz)
-   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz.sha256).
+2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.3/tabula-one-server-v0.2.44-beta.20261106-bundle.1.tar.gz)
+   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.3/tabula-one-server-v0.2.44-beta.20261106-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md), создайте администратора.
 4. Примените JSON-разрешение в «Администрирование → Бета-доступ установки».
 

@@ -1,5 +1,8 @@
 # Component sources and license notices
 
+Текущий выпуск: **server-beta-2026.11.06.3 / v0.2.44-beta.20261106**. Исправления навигации, подсказок и поворота включены в полный комплект и подписанное небольшое обновление. Исходный commit 7e19d79142fbde24b4cae3465adf4f6bbba32c00. [Состав и происхождение образов](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.3/SOURCES.json), [описание](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.3/SOURCE-README.md). В полном комплекте изменён только веб-образ; API, четыре остальных образа, зависимости и миграции сохранены. Ниже — история.
+
+
 Текущий выпуск: **server-beta-2026.11.06.2 / v0.2.43-beta.20261106**. Диагностика уроков и ночная очистка включены в полный комплект и подписанный небольшой пакет. Исходный commit 1d73da7e7afc442352f7dbf6bf614aae5a10d197. [Состав и происхождение образов](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/SOURCES.json), [описание](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/SOURCE-README.md). В полном комплекте изменены API и веб-образ; три инфраструктурных образа, зависимости и миграции сохранены. Ниже — история.
 
 
