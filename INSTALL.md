@@ -1,6 +1,6 @@
 # Установка готового серверного комплекта Tabula One
 
-Комплект `2026.11.06.1`, приложение `v0.2.42-beta.20261106`.
+Комплект `2026.11.06.2`, приложение `v0.2.43-beta.20261106`.
 Цель: Linux x86_64. На сервере не нужны Git, Node.js и доступ к репозиторию
 разработки. Преподаватели и ученики работают через браузер.
 
@@ -25,18 +25,18 @@
 
 Скачайте на сервер оба файла из одного выпуска:
 
-- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz)
-- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz.sha256)
+- [Установочный комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz)
+- [Контрольная сумма SHA-256](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz.sha256)
 
 Не используйте автоматические архивы GitHub «Source code»: готовые образы находятся
 в установочном комплекте. Скачать файлы можно следующими командами:
 
 ```bash
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz
-curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz.sha256
-sha256sum --check tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz.sha256
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz
+curl --fail --location --remote-name https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz.sha256
+sha256sum --check tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz.sha256
 mkdir tabula-one-bundle-20261031
-tar --no-same-owner -xzf tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz -C tabula-one-bundle-20261031
+tar --no-same-owner -xzf tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz -C tabula-one-bundle-20261031
 cd tabula-one-bundle-20261031
 ./tabula load
 ```
@@ -226,3 +226,6 @@ PostgreSQL, Garage и LiveKit используются без изменений
 размещением карточки. Добавлена кнопка «К группам» в личных уроках и группе;
 уменьшена верхняя часть календаря. Обновлены app/shared и web, без новых
 зависимостей и миграций. Сохраняются 50 миграций и beta-разрешение организации.
+
+
+Диагностика: Администрирование → Диагностика уроков → Включить на семь дней. Во время урока преподаватель может нажать «Отметить сбой». После занятия откройте нужный отчёт и скачайте ZIP. Данные доступны администратору, хранятся семь дней; ученику не нужны дополнительные действия. Плановая очистка временного хранилища — в 03:00 по Ташкенту, активные уроки откладывают запуск.

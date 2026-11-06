@@ -6,7 +6,7 @@
 
 ## Текущий выпуск
 
-**server-beta-2026.11.06.1 · приложение v0.2.42-beta.20261106**
+**server-beta-2026.11.06.2 · приложение v0.2.43-beta.20261106**
 
 - Выбор добавленных PDF в нижней панели.
 - Преподаватель запускает запись без подтверждения ученика; ученик видит индикатор в верхней панели.
@@ -52,8 +52,8 @@
 ## Скачать и установить
 
 1. Подготовьте Linux x86_64 с Docker Compose, публичный IPv4 и три поддомена.
-2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz)
-   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.1/tabula-one-server-v0.2.42-beta.20261106-bundle.1.tar.gz.sha256).
+2. [Скачайте комплект](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz)
+   и [контрольную сумму](https://github.com/alexvectorgsai/tabula-one-server/releases/download/server-beta-2026.11.06.2/tabula-one-server-v0.2.43-beta.20261106-bundle.1.tar.gz.sha256).
 3. Выполните [пошаговую инструкцию](INSTALL.md), создайте администратора.
 4. Примените JSON-разрешение в «Администрирование → Бета-доступ установки».
 
@@ -93,3 +93,6 @@
 
 [Страница организации](https://tabulaone.uz/server) · [Условия доступа](BETA-ACCESS.md) ·
 [Исходники компонентов](https://github.com/alexvectorgsai/tabula-one-server/blob/main/SOURCES.md) · [Условия компонентов](THIRD-PARTY.md)
+
+
+Диагностика: Администрирование → Диагностика уроков → Включить на семь дней. Во время урока преподаватель может нажать «Отметить сбой». После занятия откройте нужный отчёт и скачайте ZIP. Данные доступны администратору, хранятся семь дней; ученику не нужны дополнительные действия. Плановая очистка временного хранилища — в 03:00 по Ташкенту, активные уроки откладывают запуск.
